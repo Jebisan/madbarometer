@@ -79,8 +79,7 @@ getState = () => {
       <input  onChange={this.onQualityChange} type="number" placeholder='Quality'/>%
       <br></br> 
       <button onClick={this.calculateTotalPoints}>Calculate!</button>
-      <h2 className="textcenter">Total {this.state.calculated?this.state.totalPoint+ " points!":null} </h2>
-      
+      <h2 className="textcenter"> {this.state.calculated?"Total "+this.state.totalPoint+ " points!":null} </h2>
       <div className="center">
       <Thermometer 
           min={0}
