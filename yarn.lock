@@ -4575,6 +4575,10 @@ react-test-renderer@15.6.1:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
 
+react-thermometer@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-thermometer/-/react-thermometer-0.0.3.tgz#a8fbfba2f9a7cc8f5b6ca7457a4a70c4de7cfb34"
+
 react@15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
