@@ -19,6 +19,7 @@ button {
 
 div {
   align-content: center;
+  
 }
 
 button:disabled {
@@ -33,4 +34,9 @@ button:disabled {
   margin: auto;
   width: 0%;
   padding: 0px;
+}
+
+.textcenter {
+  text-align: center;
+
 }
