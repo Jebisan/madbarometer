@@ -5,14 +5,14 @@ import Thermometer from "react-thermometer";
 const DashboardPage = () => (
   <div>
     MadBarometeret
-    <div>
-		<Thermometer
+    <div className="center">
+		<Thermometer 
 				min={0}
-				max={30}
-				width={20}
-				height={300}
-				backgroundColor={'white'}
-				fillColor={'red'}
+				max={100}
+				width={40}
+				height={600}
+				backgroundColor={'#BDC0BA'}
+				fillColor={'#D0104C'}
 				current={10}
 		/>
 	</div>	

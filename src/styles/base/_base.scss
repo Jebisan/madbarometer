@@ -17,9 +17,8 @@ button {
   cursor: pointer;
 }
 
-img {
-  width: 600px;
-  height: 361,25px; 
+div {
+  align-content: center;
 }
 
 button:disabled {
@@ -28,4 +27,10 @@ button:disabled {
 
 .is-active {
   font-weight: bold;
+}
+
+.center {
+  margin: auto;
+  width: 0%;
+  padding: 10px;
 }
